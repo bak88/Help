@@ -100,3 +100,11 @@ git branch -f master ORIG_HEAD
 ```sh
 git branch -d <name_branch>
 ```
+* Удаление "лишних" файлов и незакомиченных изминений
+```sh
+git clean -dxf 
+d - удаление файлов и директории
+x - удаление фалов которые игнорирутся в .gitignor
+```
+
+
